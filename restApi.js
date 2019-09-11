@@ -51,3 +51,4 @@ var httpServer = require('http').createServer(app);
 httpServer.listen(port,ip, () => console.log(`listening on http://${ip}:${port}`));
 //if you want to local ip address is set to the project cmd:node project_filename.js --ip=address || export ip=ip_address
 //if you want to dynamic port:process.env.PORT=>here assign PORT name is given cmd:PORT=number node projectname.js
+//if you don't want to export value cmd : unset propertyname
